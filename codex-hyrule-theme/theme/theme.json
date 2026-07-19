@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "preset-hyrule-wilds",
+  "name": "海拉鲁旷野",
+  "brandSubtitle": "HYRULE FIELD NOTES",
+  "tagline": "勇气点亮前路，灵感回应旷野。",
+  "projectPrefix": "选择冒险 · ",
+  "projectLabel": "◈  选择冒险",
+  "statusText": "ADVENTURE READY",
+  "quote": "向着尚未抵达的远方。",
+  "image": "background.jpg",
+  "appearance": "light",
+  "art": {
+    "focusX": 0.76,
+    "focusY": 0.48,
+    "safeArea": "left",
+    "taskMode": "ambient"
+  },
+  "colors": {
+    "background": "#e7e4cf",
+    "panel": "#f4f0dd",
+    "panelAlt": "#dce4cd",
+    "accent": "#258f91",
+    "accentAlt": "#55b9ae",
+    "secondary": "#628e58",
+    "highlight": "#c99a3d",
+    "text": "#26372e",
+    "muted": "#66766b",
+    "line": "rgba(53, 111, 96, .30)"
+  }
+}

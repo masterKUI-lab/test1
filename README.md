@@ -5,6 +5,7 @@
 当前包含：
 
 - `zelda-style-image-prompt`：生成塞尔达原版游戏实况截图风格的图片提示词
+- `codex-hyrule-theme`：面向 macOS Codex Desktop 的“海拉鲁旷野”独立主题安装包
 
 ## 安装
 
@@ -44,7 +45,7 @@ skill 会输出可直接交给图片生成模型的最终提示词代码块。
 
 ## 声明
 
-本仓库只包含提示词写作规则和参考文档，不包含任何游戏素材、图片、模型、字体、音频或任天堂资源。
+本仓库的 skill 部分只包含提示词写作规则和参考文档，不包含游戏原始模型、字体、音频或任天堂官方资源。`codex-hyrule-theme/theme/background.jpg` 是 AI 生成的同人主题背景，不属于任天堂官方素材，也不包含在仓库 MIT 软件许可的授权范围内；具体说明见该主题目录的 `NOTICE.md`。
 
 本项目与 Nintendo、The Legend of Zelda、Breath of the Wild、Tears of the Kingdom 或其权利方没有关联、授权、赞助或背书关系。项目中出现的游戏名称、角色名称和商标仅用于描述提示词风格与兼容场景。
 
