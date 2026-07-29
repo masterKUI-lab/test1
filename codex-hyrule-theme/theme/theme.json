@@ -4,7 +4,7 @@
   "name": "海拉鲁旷野",
   "brandSubtitle": "HYRULE FIELD NOTES",
   "tagline": "勇气点亮前路，灵感回应旷野。",
-  "projectPrefix": "选择冒险 · ",
+  "projectPrefix": "◈ ",
   "projectLabel": "◈  选择冒险",
   "statusText": "ADVENTURE READY",
   "quote": "向着尚未抵达的远方。",
@@ -18,14 +18,14 @@
   },
   "colors": {
     "background": "#e7e4cf",
-    "panel": "#f4f0dd",
-    "panelAlt": "#dce4cd",
-    "accent": "#258f91",
-    "accentAlt": "#55b9ae",
-    "secondary": "#628e58",
-    "highlight": "#c99a3d",
+    "panel": "#f8edcb",
+    "panelAlt": "#cbdcc6",
+    "accent": "#1f7477",
+    "accentAlt": "#2a716d",
+    "secondary": "#4d7448",
+    "highlight": "#865f1d",
     "text": "#26372e",
-    "muted": "#66766b",
-    "line": "rgba(53, 111, 96, .30)"
+    "muted": "#526358",
+    "line": "rgba(53, 111, 96, .38)"
   }
 }

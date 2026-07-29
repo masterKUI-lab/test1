@@ -16,18 +16,18 @@
 
 - macOS
 - 已安装并至少启动过一次官方 Codex Desktop
-- 首次自动安装运行引擎时可以访问 GitHub
+- 每次运行安装器检查引擎更新时可以访问 GitHub
 
-Codex 本身不会读取本目录中的 `theme.json`。[Codex Dream Skin](https://github.com/Fei-Away/Codex-Dream-Skin) 是负责加载主题和注入样式的运行引擎，只需要安装一次。本安装器会自动检测它：已经安装时直接使用；没有安装时询问用户后从仓库 `main` 分支下载最新版本并安装。
+Codex 本身不会读取本目录中的主题文件。[Codex Dream Skin](https://github.com/Fei-Away/Codex-Dream-Skin) 是负责加载主题和注入样式的运行引擎。本主题按新版简化主题包提供 `theme.json`、受限的 `theme.css` 和背景图。本安装器每次运行都会检查仓库 `main` 分支的版本：没有安装时安装最新版；发现已安装版本较旧或版本信息异常时，询问用户后升级或重新安装；只有版本相同或更高时才直接使用。
 
 ## 一键安装
 
 1. 从 GitHub 下载并解压本仓库。
 2. 双击 `Install Hyrule Theme.command`。
-3. 如果没有检测到 Dream Skin，确认提示后允许安装器退出 Codex 并安装引擎。
+3. 如果没有检测到 Dream Skin，或者检测到引擎需要更新，确认提示后允许安装器退出 Codex 并安装或升级引擎。
 4. 安装器会把主题复制到用户主题库，并自动切换到“海拉鲁旷野”。
 
-自动安装始终获取 Dream Skin 仓库 `main` 分支的最新版本，不固定提交或版本号。引擎已经存在时不会联网下载，也不会重复安装。
+安装器始终以 Dream Skin 仓库 `main` 分支公布的版本为准，不固定提交或版本号。每次运行都会联网检查版本；发现新版时直接升级，不继续使用旧版。版本相同或本机版本更高时不会重复下载完整引擎；如果无法确认上游版本，安装器会停止，避免静默使用可能过期的引擎。
 
 如果 macOS 没有将 `.command` 文件识别为可执行文件，可以在终端运行：
 
@@ -65,7 +65,7 @@ theme/background.jpg
 
 不要修改 `theme/theme.json` 中的 `image` 文件名。替换后重新运行安装器，侧栏、面板、输入框和强调色都会保持不变，只更新背景。
 
-图片应为纯背景，不要包含 Codex 窗口、侧栏、按钮、输入框、文字、Logo 或水印。建议控制在 16 MB 以内。
+图片应为纯背景，不要包含 Codex 窗口、侧栏、按钮、输入框、文字、Logo 或水印。主题包内的背景图必须不超过 10 MiB。
 
 ## 目录结构
 
@@ -76,6 +76,7 @@ codex-hyrule-theme/
 ├── README.md
 └── theme/
     ├── background.jpg
+    ├── theme.css
     └── theme.json
 ```
 

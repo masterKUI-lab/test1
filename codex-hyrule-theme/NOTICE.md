@@ -1,6 +1,6 @@
 # 素材与权利声明
 
-`Install Hyrule Theme.command` 和 `theme/theme.json` 属于本仓库的软件与配置文件，适用仓库根目录中的 MIT License。
+`Install Hyrule Theme.command`、`theme/theme.json` 和 `theme/theme.css` 属于本仓库的软件与配置文件，适用仓库根目录中的 MIT License。
 
 `theme/background.jpg` 是包含《塞尔达传说》相关角色形象的 AI 生成同人背景，不包含在 MIT License 的授权范围内。本仓库不对 Nintendo、The Legend of Zelda、林克、塞尔达或其他相关角色、名称、商标和视觉资产主张权利，也不授予任何相关知识产权许可。
 
